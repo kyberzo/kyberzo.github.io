@@ -10,8 +10,7 @@ pin: true
 ---
 ***
 ## Introduction
-This is a companion post for a Legacy Analysis of [TDL4 Boot Up](https://github.com/kyberzo/z3r0cyb3rLegacy).
-To see the Malware boot Up under a Debugger you may see the GIF and Videos under https://github.com/kyberzo/z3r0cyb3rLegacy/tree/main/Bootkit-TDL4/assets, other artifacts can be foun on the Main folder [Bootkit-TDL4](https://github.com/kyberzo/z3r0cyb3rLegacy/tree/main/Bootkit-TDL4)
+After many years of my paper being locked in a vault, I have released it as it is no longer relevant in the age of EFI and to to serve as academic purpose for reference and learning. This is a companion post for a Legacy Analysis of [TDL4 Boot Up](https://github.com/kyberzo/z3r0cyb3rLegacy). To see the Malware boot Up under a Debugger you may see the GIF and Videos under https://github.com/kyberzo/z3r0cyb3rLegacy/tree/main/Bootkit-TDL4/assets, other artifacts can be found on the Main folder [Bootkit-TDL4](https://github.com/kyberzo/z3r0cyb3rLegacy/tree/main/Bootkit-TDL4)
 
 ## Pre-requisites
  - **VMWare Workstation** - Virtualization for an operating system is needed for remote debugging of the OS. As this is an old analysis, I have not tested it on other Virtualization. There is no need for the latest VMware. An Older version will suffice. For this case, it is highly recommended to use VMWare as this companion dependently uses VMWare.
