@@ -449,4 +449,4 @@ The skills you've gained are directly applicable to real-world security operatio
 - [Cilium eBPF Documentation](https://docs.cilium.io/en/latest/bpf/)
 - [Fluent Bit Splunk Output Plugin](https://docs.fluentbit.io/manual/pipeline/outputs/splunk)
 - [Splunk HTTP Event Collector Guide](https://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector)
-- [Full Lab Repository](https://github.com/z3r0cyb3rLab)
+- [Full Lab Repository](https://github.com/kyberzo/z3r0cyb3rLab/tree/main)
