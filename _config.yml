@@ -8,35 +8,12 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-<<<<<<< HEAD
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Europe/Helsinki
-=======
 # Change to your timezone › https://zones.arilyn.cc
 timezone:
->>>>>>> v7.4.0
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-<<<<<<< HEAD
-title: kyberzo # the main title
-
-tagline: A cybersecurity professional, who's always keen to learn new stuff. [z3r0cyb3r.io | z3r0cyb3rLab] # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  A personal journal to keep for future reference as re-fresher and share to public.
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://kyberzo.github.io"
-
-github:
-  username: kyberzo # change to your GitHub username
-
-#twitter:
-#  username: twitter_username # change to your Twitter username
-=======
 title: Chirpy # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the subtitle
@@ -53,22 +30,10 @@ github:
 
 twitter:
   username: twitter_username # change to your Twitter username
->>>>>>> v7.4.0
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-<<<<<<< HEAD
-  name: kyberzo
-  #email: example@domain.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/kyberzo # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/zimry-ong-31a45728
-=======
   name: your_full_name
   email: example@domain.com # change to your email address
   links:
@@ -78,7 +43,6 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
->>>>>>> v7.4.0
 
 # Site Verification Settings
 webmaster_verifications:
@@ -97,11 +61,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-<<<<<<< HEAD
-    id: kyberzo # fill in your GoatCounter ID
-=======
     id: # fill in your GoatCounter ID
->>>>>>> v7.4.0
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -115,11 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-<<<<<<< HEAD
-  provider: goatcounter # now only supports 'goatcounter'
-=======
   provider: # now only supports 'goatcounter'
->>>>>>> v7.4.0
 
 # Prefer color scheme setting.
 #
@@ -132,11 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-<<<<<<< HEAD
-theme_mode: dark # [light | dark]
-=======
 theme_mode: # [light | dark]
->>>>>>> v7.4.0
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -146,11 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-<<<<<<< HEAD
-avatar: assets/avatar.png
-=======
 avatar:
->>>>>>> v7.4.0
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
