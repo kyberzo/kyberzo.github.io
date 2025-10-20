@@ -86,12 +86,12 @@ Before starting, ensure you have:
 
 - **Proxmox Environment**: Virtualization host (minimum 16GB RAM recommended)
 - **Kubernetes Cluster**: A running cluster deployed using kubeadm with Cilium CNI
-  - If you need to set up the base cluster, follow the [Base Kubernetes Cluster guide](https://github.com/z3r0cyb3rLab/Base01_Kubernetes_Cilium)
+  - If you need to set up the base cluster, follow the [Base Kubernetes Cluster guide](https://github.com/kyberzo/z3r0cyb3rLab/tree/main/Base01_Kubernetes_Cilium)
 - **Splunk Instance**: Either Splunk Enterprise (free version works) or Splunk Cloud
   - This guide assumes you have Splunk already deployed and accessible
 - **SSH Access**: To the Kubernetes master node for running kubectl commands
 
-> If you need help setting up the Proxmox environment and base Kubernetes cluster, check out the [complete setup guide](https://github.com/z3r0cyb3rLab) which includes Terraform and Ansible automation for rapid deployment.
+> If you need help setting up the Proxmox environment and base Kubernetes cluster, check out the [complete setup guide](https://github.com/kyberzo/z3r0cyb3rLab/tree/main) which includes Terraform and Ansible automation for rapid deployment.
 {: .prompt-info }
 
 ## Step 1: Installing Tetragon
