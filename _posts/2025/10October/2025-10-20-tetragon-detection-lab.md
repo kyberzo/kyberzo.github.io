@@ -2,12 +2,13 @@
 title: "Kubernetes Detection Lab with Tetragon and Splunk"
 description: Build a Kubernetes security detection lab using Tetragon for eBPF-based runtime monitoring and Splunk for centralized SIEM analysis. 
 date: 2025-10-20 8:00:00 +0000
-categories: [z3r0cyb3rLab, Lab-Setup]
+categories: [z3r0cyb3rLab, LabSetup]
 tags: [kubernetes, tetragon, ebpf, splunk, cilium, security, detection, proxmox]
-author: z3r0cyber
 pin: true
 ---
 
+---
+***
 ## Introduction
 
 In today's cloud-native landscape, security observability is critical for detecting threats and understanding system behavior in Kubernetes environments. Traditional security tools often struggle with containerized workloads, requiring either application changes or generating excessive overhead. This is where **Tetragon** shines—providing deep, kernel-level visibility using eBPF technology without modifying your applications.
