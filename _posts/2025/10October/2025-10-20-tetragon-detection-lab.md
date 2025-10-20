@@ -412,7 +412,7 @@ You should see a steady stream of events in Splunk, demonstrating that:
 - Events are being forwarded to Splunk via HEC
 - JSON parsing is working correctly
 
-![Splunk Event Verification](/Base01_Kubernetes_Cilium/_Lab01_k8s_tetragon_detection_lab/assets/splunk_verify_flow.png)
+![Splunk Event Verification](/assets/post/2025/10October/tetragon/splunk_verify_flow.png)
 
 ## Conclusion
 
