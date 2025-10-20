@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Detection Lab with Tetragon and Splunk"
 description: Build a Kubernetes security detection lab using Tetragon for eBPF-based runtime monitoring and Splunk for centralized SIEM analysis. 
-date: 2025-10-20 10:00:00 +0000
+date: 2025-10-20 8:00:00 +0000
 categories: [z3r0cyb3rLab, Lab-Setup]
 tags: [kubernetes, tetragon, ebpf, splunk, cilium, security, detection, proxmox]
 author: z3r0cyber
