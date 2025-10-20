@@ -357,14 +357,26 @@ Fluent Bit v4.1.1
 * Fluent Bit is a CNCF sub-project under the umbrella of Fluentd
 * https://fluentbit.io
 
-[2025/10/10 07:51:19] [ info] [fluent bit] version=4.1.1, commit=912b7d783a, pid=1
-[2025/10/10 07:51:19] [ info] [storage] ver=1.5.3, type=memory, sync=normal, checksum=off
-[2025/10/10 07:51:19] [ info] [input:tail:tail.0] initializing
-[2025/10/10 07:51:19] [ info] [input:tail:tail.0] storage_strategy='memory' (memory only)
-[2025/10/10 07:51:19] [ info] [output:splunk:splunk.0] worker #0 started
-[2025/10/10 07:51:19] [ info] [sp] stream processor started
-[2025/10/10 07:51:19] [ info] [input:tail:tail.0] inotify_fs_add(): inode=2228 watch_fd=1 name=/var/run/cilium/tetragon/tetragon.log
-[2025/10/10 07:51:19] [ info] [output:splunk:splunk.0] worker #1 started
+______ _                  _    ______ _ _             ___   __
+|  ___| |                | |   | ___ (_) |           /   | /  |
+| |_  | |_   _  ___ _ __ | |_  | |_/ /_| |_  __   __/ /| | `| |
+|  _| | | | | |/ _ \ '_ \| __| | ___ \ | __| \ \ / / /_| |  | |
+| |   | | |_| |  __/ | | | |_  | |_/ / | |_   \ V /\___  |__| |_
+\_|   |_|\__,_|\___|_| |_|\__| \____/|_|\__|   \_/     |_(_)___/
+
+
+[2025/10/10 07:51:19.808812265] [ info] [fluent bit] version=4.1.1, commit=912b7d783a, pid=1
+[2025/10/10 07:51:19.808869583] [ info] [storage] ver=1.5.3, type=memory, sync=normal, checksum=off, max_chunks_up=128
+[2025/10/10 07:51:19.808874019] [ info] [simd    ] SSE2
+[2025/10/10 07:51:19.808876601] [ info] [cmetrics] version=1.0.5
+[2025/10/10 07:51:19.808878982] [ info] [ctraces ] version=0.6.6
+[2025/10/10 07:51:19.808945175] [ info] [input:tail:tail.0] initializing
+[2025/10/10 07:51:19.808949113] [ info] [input:tail:tail.0] storage_strategy='memory' (memory only)
+[2025/10/10 07:51:19.812074575] [ info] [output:splunk:splunk.0] worker #0 started
+[2025/10/10 07:51:19.812281803] [ info] [sp] stream processor started
+[2025/10/10 07:51:19.812464883] [ info] [engine] Shutdown Grace Period=5, Shutdown Input Grace Period=2
+[2025/10/10 07:51:19.812672324] [ info] [input:tail:tail.0] inotify_fs_add(): inode=2228 watch_fd=1 name=/var/run/cilium/tetragon/tetragon.log
+[2025/10/10 07:51:19.815375890] [ info] [output:splunk:splunk.0] worker #1 started
 ```
 
 Look for:
