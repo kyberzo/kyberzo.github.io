@@ -411,9 +411,9 @@ You should see Tetragon events with rich fields like:
 - `process_exec.process.binary`: Path to the executed binary
 - `process_exec.process.arguments`: Command-line arguments
 - `process_exec.parent.binary`: Parent process that spawned this process
-- `kubernetes.pod.name`: Pod name where the event occurred
-- `kubernetes.pod.namespace`: Kubernetes namespace
-- `kubernetes.pod.container.name`: Container name
+- `process_exec.process.pod.name`: Pod name where the event occurred
+- `process_exec.process.pod.namespace`: Kubernetes namespace
+- `process_exec.process.pod.container.name`: Container name
 - `time`: Timestamp of the event
 
 ### Visual Verification
